@@ -1,6 +1,6 @@
 # Exploratory Data Analysis (EDA)
 
-## 1. Objective
+**Objective**
 
 The goal of this stage is to explore the dataset to uncover meaningful patterns, relationships, and potential drivers of sales behavior.
 
@@ -13,9 +13,7 @@ Building on the previous data quality assessment, this phase focuses on understa
 
 The insights derived from this stage will guide feature engineering and modeling decisions.
 
----
-
-## 2. Scope
+**Scope**
 
 This analysis focuses on:
 
@@ -26,9 +24,7 @@ This analysis focuses on:
 
 The objective is not to build models yet, but to identify structure and signals within the data.
 
----
-
-## 3. Analytical Approach
+**Analytical Approach**
 
 The EDA will be conducted through:
 
@@ -43,17 +39,13 @@ Special attention will be given to identifying:
 - Systematic differences across groups
 - Potential interactions between features
 
----
-
-## 4. Link to Previous Stage
+**Link to Previous Stage**
 
 The dataset has been validated as clean and usable during the data quality assessment stage.
 
 Therefore, no additional preprocessing is performed here, and the analysis is conducted directly on the original dataset.
 
----
-
-## 5. Key Hypotheses
+**Key Hypotheses**
 
 Based on prior structural understanding, we aim to validate the following:
 
@@ -63,3 +55,14 @@ Based on prior structural understanding, we aim to validate the following:
 - Promotions have heterogeneous effects across categories
 
 These hypotheses will be tested and refined throughout the analysis.
+
+## 1.Time Dimension Analysis
+
+### 1.1Aggregate Sales Trend Over Time
+
+To obtain an initial view of the temporal structure, sales are aggregated across all stores and product categories and analyzed over time.
+
+This step is intended to identify whether the time dimension exhibits broad trend or cyclical behavior before moving to finer-grained temporal breakdowns.
+
+![](assets/1.png)
+
