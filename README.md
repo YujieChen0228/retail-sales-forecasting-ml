@@ -223,4 +223,23 @@ Temporal dynamics (dominant)
   2. assets：plots used in the report
 - output：notebooks exported as html，easy to read
 
-📌 Full workflow is available in the notebook.
+**Full workflow is available in the notebook.**
+
+## What I Can Offer (Freelance)
+
+I can help with:
+
+- Data analysis & EDA
+- Feature engineering for structured data
+- Time series / tabular ML modeling
+- Interpretable ML (symbolic regression)
+- Turning research into production-ready pipelines
+- Writing clear technical reports (EN/CN)
+
+## Contact
+
+Feel free to reach out for collaboration or freelance work.
+
+My email: cyujie0228@163.com
+
+Upwork:[Chen Y. - Data Analyst | Turning Data into Insights & Predictive Models - Upwork Freelancer from Chengdu, China](https://www.upwork.com/freelancers/~019535ac95f3eab6c7)
