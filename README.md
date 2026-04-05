@@ -130,6 +130,8 @@ Evaluation includes:
 - Mean CV RMSE: 363.574
 - OOF RMSE: 377.4702
 
+In practice, the model provides reliable baseline forecasts for normal operating conditions, but additional event-driven features would be needed to better capture extreme demand spikes.
+
 The model shows stable performance across time splits.
 
 ---
@@ -187,7 +189,7 @@ Certain stores also show consistently higher error.
 
 ---
 
-## Modeling Perspective
+## Business Interpretation
 
 The model behaves as an implicit hierarchical system:
 
@@ -217,11 +219,10 @@ Temporal dynamics (dominant)
 
 ## Project Structure
 
-- notebook: full analysis and modeling
-- report:
-  1. reports for each section
-  2. assets：plots used in the report
-- output：notebooks exported as html，easy to read
+- `notebooks/` — end-to-end EDA, feature engineering, and modeling notebooks
+- `outputs/` — exported results, evaluation artifacts, and model outputs
+- `report/` — written project report and figures used for presentation
+- `README.md` — project overview for portfolio / client review
 
 **Full workflow is available in the notebook.**
 
